@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/home.css'
+import '../styles/home.scss'
 import Bot from './bot'
 import { connect } from 'react-redux';
 import avatar from '../images/bot.png';

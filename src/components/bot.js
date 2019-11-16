@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/bot.css'
+import '../styles/bot.scss'
 import { connect } from 'react-redux';
 import {addMessage} from '../redux/actions/action'
 import avatar from '../images/bot.png'
@@ -53,7 +53,8 @@ class Bot extends React.Component {
                 <div className="send">
                     <input type="text" className="textbox" placeholder="Enter message..." onChange={this.currentMessage} value={this.state.currentMessage} />
                     <i class="fa fa-paper-plane" onClick={this.messageSend} ></i>
-                    </div></div>
+                    </div>
+                </div>
 
             </div>
         )
