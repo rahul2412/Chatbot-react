@@ -1,0 +1,94 @@
+@import "./styles";
+
+hr{
+    border: $border;
+}
+
+.header{
+    background-color: $bg-color;
+}
+
+.send{
+    position: absolute;
+    bottom:8px;
+    left: 40px;
+ }
+
+.textbox{
+    width: 200px;
+}
+
+.bot-box{
+    border: 1px solid black;
+    position: relative;
+    width: 320px;
+    height: 85vh;
+}
+
+.inner{
+    height:350px;
+    width:100%;
+    word-wrap: break-word;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    height:80px;
+    width:80px;
+}
+
+b.avatarName{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+b.botMessage{
+    margin-left: $default-pixel;
+}
+
+
+.fa-close{
+    position: absolute;
+    top: $default-pixel;
+    right: $default-pixel;
+    font-size:40px
+}
+
+
+.fa-arrow-left{
+    position: absolute;
+    top: $default-pixel;
+    left: $default-pixel;
+    font-size:40px;
+}
+
+.userMessage{
+    margin: 15px 10px 15px 5px;
+    padding-left: 10px;
+    width: 75%;
+    border: 1px thin black;
+    border-radius: 8px;
+    background-color: lightgreen;
+    
+}
+
+.fa-paper-plane{
+    transform: rotate(45deg);
+    font-size: 24px;
+}
+
+.avatar{
+    text-align: $align;
+}
+
+
+
+
+

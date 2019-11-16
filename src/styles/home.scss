@@ -1,0 +1,50 @@
+@import "./styles";
+
+.box{
+    position: relative;
+    border: $border;
+    width: 320px;
+    height: 80vh;
+    background-color:$bg-color;
+}
+
+.fa-close{
+    position: absolute;
+    top: $default-pixel;
+    right: $default-pixel;
+    font-size:40px;
+    }
+
+.aboutUs{
+    padding-top: $default-pixel;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    border: $border;
+    text-align: $align;
+    font-weight: bold;
+}
+
+p img{
+    padding-top:8px;
+    height: 80%;;
+    width: 85%;
+}
+
+.header{
+    text-align: $align;
+    
+}
+
+.askQuestion{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: $align;
+    border: $border;
+    background-color: lightblue;
+    
+}
+
+.askQuestion:hover{
+    background-color: grey;
+}
