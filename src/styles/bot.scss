@@ -10,7 +10,7 @@ hr{
 
 .send{
     position: absolute;
-    bottom:8px;
+    bottom: 8px;
     left: 40px;
  }
 
@@ -40,7 +40,7 @@ li{
 
 img{
     height:80px;
-    width:80px;
+    width: 80px;
 }
 
 b.avatarName{
@@ -58,7 +58,7 @@ b.botMessage{
     position: absolute;
     top: $default-pixel;
     right: $default-pixel;
-    font-size:40px
+    font-size: 40px
 }
 
 
@@ -66,7 +66,7 @@ b.botMessage{
     position: absolute;
     top: $default-pixel;
     left: $default-pixel;
-    font-size:40px;
+    font-size: 40px;
 }
 
 .userMessage{
