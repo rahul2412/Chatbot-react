@@ -1,4 +1,20 @@
 $border: 1px solid black;
 $bg-color: cyan;
 $align: center;
-$default-pixel: 5px; 
+$size: 5px;
+
+@mixin  screen {
+width: 340px;
+height: 85vh;
+}
+
+@mixin fontButton{
+position: absolute;
+top: $size;
+font-size: 40px
+}
+
+@mixin screenMobile{
+    margin: auto;
+    width: 90%;
+}

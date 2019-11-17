@@ -22,7 +22,7 @@ class App extends React.Component {
         return (
             <div >
                 {this.props.app_state==="closed"? (
-                    <img class="logo" onClick={this.toggleApp} src={avatar} alt="avatar"/>
+                    <img className="logo" onClick={this.toggleApp} src={avatar} alt="avatar"/>
                     ):(<Home/>)}
             </div>
         );

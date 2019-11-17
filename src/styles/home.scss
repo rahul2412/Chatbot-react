@@ -1,35 +1,25 @@
 @import "./styles";
 
-
-
 .box{
     position: relative;
     margin-left: 25px;
     margin-top: 25px;
     border: $border;
-    width: 350px;
-    height: 90vh;
+    @include screen;
     background-color: $bg-color;
 }
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
     .box {
-      margin: auto;
-      width: 90%;
+      @include screenMobile;
     }
   }
 
-.fa-close{
-    position: absolute;
-    top: $default-pixel;
-    right: $default-pixel;
-    font-size: 40px;
-    }
 
 .aboutUs{
-    padding-top: $default-pixel;
+    padding-top: $size;
     width: 80%;
-    height: 47vh;
+    height: 43vh;
     margin: auto;
     border: $border;
     text-align: $align;
@@ -38,7 +28,7 @@
 
 p img{
     padding-top: 8px;
-    height: 38vh;
+    height: 36vh;
     width: 85%;
 }
 
@@ -59,3 +49,8 @@ p img{
 .askQuestion:hover{
     background-color: grey;
 }
+
+.fa-close{
+    @include fontButton;
+    right: $size;
+     }

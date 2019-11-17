@@ -46,8 +46,7 @@ class Home extends React.Component {
 }
 const mapStateToProps = state => {
     return {
-        messageFromBot: state.messageFromBot,
-        app_state: state.app_state
+       app_state: state.app_state
     }
 }
 

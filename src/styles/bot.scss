@@ -1,6 +1,28 @@
 @import "./styles";
 
+.bot-box{
+    border: $border;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
+    @include screen;
+}
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+.bot-box {
+    @include screenMobile;
+    
+   }
+}
 
+.inner{
+    height: 370px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 hr{
     border: $border;
@@ -23,37 +45,12 @@ hr{
     height: 24px
 }
 
-.bot-box{
-    border: $border;
-    position: relative;
-    margin-left: 25px;
-    margin-top: 25px;
-    width: 350px;
-    height: 90vh;
-}
-@media only screen and (max-width: 425px) {
-    /* For mobile phones: */
-.bot-box {
-    margin: auto;
-    width: 90%;
-    
-   }
-}
-.inner{
-    height: 370px;
-    width: 100%;
-    word-wrap: break-word;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 li{
     list-style-type: none;
 }
 
 img{
-    padding-top: 5px;
+    padding-top: $size;
     height:70px;
     width: 70px;
 }
@@ -61,7 +58,7 @@ img{
 b.avatarName{
     font-size: 22px;
     position: relative;
-    margin-left: $default-pixel;
+    margin-left: $size;
     bottom: 20px;
 }
 
@@ -70,20 +67,6 @@ b.botMessage{
 }
 
 
-.fa-close{
-    position: absolute;
-    top: $default-pixel;
-    right: $default-pixel;
-    font-size: 40px
-}
-
-
-.fa-arrow-left{
-    position: absolute;
-    top: $default-pixel;
-    left: $default-pixel;
-    font-size: 40px;
-}
 
 .userMessage{
     margin: 15px 10px 15px 5px;
@@ -92,17 +75,27 @@ b.botMessage{
     border: 1px thin black;
     border-radius: 8px;
     background-color: lightgreen;
-    
-}
-
-.fa-paper-plane{
-    transform: rotate(45deg);
-    font-size: 28px;
 }
 
 .avatar{
     text-align: $align;
 }
+
+.fa-close{
+    @include fontButton;
+    right: $size;
+}
+
+
+.fa-arrow-left{
+    @include fontButton;
+    left: $size;
+}
+.fa-paper-plane{
+    transform: rotate(45deg);
+    font-size: 28px;
+}
+
 
 
 
