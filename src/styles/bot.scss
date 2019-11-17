@@ -14,10 +14,12 @@ hr{
     position: absolute;
     bottom: 8px;
     left: 40px;
+    width: 100%;
  }
 
 .textbox{
-    width: 12em;
+    
+    width: 60%;
 }
 
 .bot-box{
@@ -39,7 +41,7 @@ hr{
     word-wrap: break-word;
     overflow: scroll;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 li{
@@ -58,7 +60,7 @@ b.avatarName{
 }
 
 b.botMessage{
-    margin-left: $default-pixel;
+    margin-left: 15px;
 }
 
 

@@ -1,6 +1,6 @@
 
 const initialState = {
-  messageFromBot: "Hey, how may I help you ??",
+  messageFromBot: "  Hey, how may I help you ??",
   messageFromUser: [],
   app_state: "closed"
 };
