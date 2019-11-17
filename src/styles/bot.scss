@@ -49,13 +49,15 @@ li{
 }
 
 img{
-    height:80px;
-    width: 80px;
+    padding-top: 5px;
+    height:70px;
+    width: 70px;
 }
 
 b.avatarName{
-    font-size: 25px;
+    font-size: 22px;
     position: relative;
+    margin-left: $default-pixel;
     bottom: 20px;
 }
 
