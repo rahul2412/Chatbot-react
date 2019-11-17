@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import avatar from './images/bot.png';
 import {stateChange} from './redux/actions/action'
 import Home from './components/home'
+import "./styles/app.scss"
 
 class App extends React.Component {
     constructor(props) {
