@@ -1,5 +1,5 @@
 # Chatbot-react
-A front-end of Chatbot built using React, Redux and SCSS.
+A responsive front-end of Chatbot is built using React, Redux and SCSS.
 
 ## Live version-
 Application is live on- https://chatbot-react1.herokuapp.com/ 
