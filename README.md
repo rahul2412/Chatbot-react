@@ -11,9 +11,9 @@ Application is live on- https://chatbot-react1.herokuapp.com/
 - Open localhost:3000 in your browser.
 
 ## Project Demo-
-Icon-
+Icon- <br/>
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/icon.PNG" alt="icon"/> <br/>
-Home-
+Home- <br/>
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/home.PNG" alt="home"/><br/>
 Inbox-
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/inbox.PNG" alt="inbox"/>
