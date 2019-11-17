@@ -8,7 +8,7 @@
     margin-top: 25px;
     border: $border;
     width: 350px;
-    height: 520px;
+    height: 90vh;
     background-color: $bg-color;
 }
 @media only screen and (max-width: 425px) {
@@ -29,7 +29,7 @@
 .aboutUs{
     padding-top: $default-pixel;
     width: 80%;
-    height: 265px;
+    height: 47vh;
     margin: auto;
     border: $border;
     text-align: $align;
@@ -38,7 +38,7 @@
 
 p img{
     padding-top: 8px;
-    height: 80%;;
+    height: 38vh;
     width: 85%;
 }
 

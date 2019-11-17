@@ -18,7 +18,7 @@ hr{
  }
 
 .textbox{
-    
+    border: 1px solid yellowgreen;
     width: 60%;
 }
 
@@ -28,13 +28,14 @@ hr{
     margin-left: 25px;
     margin-top: 25px;
     width: 350px;
-    height: 520px;
+    height: 90vh;
 }
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
 .bot-box {
     margin: auto;
     width: 90%;
+    
    }
 }
 .inner{
