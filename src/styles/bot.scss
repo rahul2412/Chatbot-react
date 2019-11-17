@@ -25,8 +25,10 @@ hr{
 .bot-box{
     border: $border;
     position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
     width: 350px;
-    height: 500px;
+    height: 520px;
 }
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
@@ -36,8 +38,8 @@ hr{
    }
 }
 .inner{
-    height:350px;
-    width:100%;
+    height: 370px;
+    width: 100%;
     word-wrap: break-word;
     overflow: scroll;
     overflow-x: hidden;

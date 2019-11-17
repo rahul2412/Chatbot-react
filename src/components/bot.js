@@ -51,7 +51,7 @@ class Bot extends React.Component {
 
                 </div>
                 <div className="send">
-                    <input type="text" className="textbox" placeholder="Enter message..." onChange={this.currentMessage} value={this.state.currentMessage} />
+                    <input type="text" className="textbox" placeholder="Send a message..." onChange={this.currentMessage} value={this.state.currentMessage} />
                     <i class="fa fa-paper-plane" onClick={this.messageSend} ></i>
                     </div>
                 </div>

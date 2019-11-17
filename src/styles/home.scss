@@ -4,15 +4,17 @@
 
 .box{
     position: relative;
+    margin-left: 25px;
+    margin-top: 25px;
     border: $border;
     width: 350px;
-    height: 500px;
+    height: 520px;
     background-color: $bg-color;
 }
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
     .box {
-    margin: auto;
+      margin: auto;
       width: 90%;
     }
   }
@@ -27,7 +29,7 @@
 .aboutUs{
     padding-top: $default-pixel;
     width: 80%;
-    height: 250px;
+    height: 265px;
     margin: auto;
     border: $border;
     text-align: $align;
