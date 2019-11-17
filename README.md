@@ -12,6 +12,9 @@ Application is live on- https://chatbot-react1.herokuapp.com/
 
 ## Project Demo-
 Icon-
+<img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/icon.PNG" alt="icon"/>
 Home-
+<img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/home.PNG" alt="home"/>
 Inbox-
+<img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/inbox.PNG" alt="inbox"/>
 
