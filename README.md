@@ -15,6 +15,6 @@ Icon- <br/>
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/icon.PNG" alt="icon"/> <br/>
 Home- <br/>
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/home.PNG" alt="home"/><br/>
-Inbox-
+Inbox- <br/>
 <img src="https://github.com/rahul2412/Chatbot-react/blob/master/project_images/inbox.PNG" alt="inbox"/>
 
