@@ -1,4 +1,3 @@
-
 export function addMessage(message) {
   return { type: "Add_message", message }; // sends message of inbox to reducer
 }

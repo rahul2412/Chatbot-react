@@ -1,4 +1,3 @@
-
 const initialState = {
   messageFromBot: "  Hey, how may I help you ??",
   messageFromUser: [],
