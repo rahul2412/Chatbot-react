@@ -1,56 +1,54 @@
 @import "./styles";
 
-.box{
-    position: relative;
-    margin-left: 25px;
-    margin-top: 25px;
-    border: $border;
-    @include screen;
+.box {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 25px;
+  border: $border;
+  @include screen;
     background-color: $bg-color;
 }
+
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
-    .box {
-      @include screenMobile;
-    }
+  .box {
+    @include screenMobile;
   }
-
-
-.aboutUs{
-    padding-top: $size;
-    width: 80%;
-    height: 44vh;
-    margin: auto;
-    border: $border;
-    text-align: $align;
-    font-weight: bold;
 }
 
-p img{
-    padding-top: 8px;
-    height: 35vh;
-    width: 85%;
+.aboutUs {
+  padding-top: $defaultSize;
+  width: 80%;
+  height: 44vh;
+  margin: auto;
+  border: $border;
+  text-align: $align;
+  font-weight: bold;
 }
 
-.header{
-    text-align: $align;
-    
+p img {
+  padding-top: 8px;
+  height: 35vh;
+  width: 85%;
 }
 
-.askQuestion{
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: $align;
-    border: $border;
-    background-color: lightblue;
-    
+.header {
+  text-align: $align;
 }
 
-.askQuestion:hover{
-    background-color: grey;
+.askQuestion {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: $align;
+  border: $border;
+  background-color: lightblue;
 }
 
-.fa-close{
-    @include fontButton;
-    right: $size;
-     }
+.askQuestion:hover {
+  background-color: grey;
+}
+
+.fa-close {
+  @include fontButton;
+    right: $defaultSize;
+}

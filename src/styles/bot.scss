@@ -1,99 +1,97 @@
 @import "./styles";
 
-.bot-box{
-    border: $border;
-    position: relative;
-    margin-left: 25px;
-    margin-top: 25px;
-    @include screen;
+.bot-box {
+  border: $border;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 25px;
+  @include screen;
 }
+
 @media only screen and (max-width: 425px) {
     /* For mobile phones: */
-.bot-box {
+  .bot-box {
     @include screenMobile;
-    
-   }
+  }
 }
 
-.inner{
-    height: 57vh;
-    width: 100%;
-    word-wrap: break-word;
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: auto;
+.inner {
+  height: 57vh;
+  width: 100%;
+  word-wrap: break-word;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
-hr{
-    border: $border;
+hr {
+  border: $border;
 }
 
-.header{
-    background-color: $bg-color;
+.header {
+  background-color: $bg-color;
 }
 
-.send{
-    position: absolute;
-    bottom: 8px;
-    left: 40px;
-    width: 100%;
- }
-
-.textbox{
-    border: 1px solid yellowgreen;
-    width: 60%;
-    height: 24px
+.send {
+  position: absolute;
+  bottom: 8px;
+  left: 40px;
+  width: 100%;
 }
 
-li{
-    list-style-type: none;
+.textbox {
+  border: 1px solid yellowgreen;
+  width: 60%;
+  height: 24px;
 }
 
-img{
-    padding-top: $size;
-    height:70px;
-    width: 70px;
+li {
+  list-style-type: none;
 }
 
-b.avatarName{
-    font-size: 22px;
-    position: relative;
-    margin-left: $size;
-    bottom: 20px;
+img {
+  padding-top: $defaultSize;
+  height: 70px;
+  width: 70px;
 }
 
-b.botMessage{
-    margin-left: 15px;
+b.avatarName {
+  font-size: 22px;
+  position: relative;
+  margin-left: $defaultSize;
+  bottom: 20px;
 }
 
-
-
-.userMessage{
-    margin: 15px 10px 15px 5px;
-    padding-left: 10px;
-    width: 75%;
-    border: 1px thin black;
-    border-radius: 8px;
-    background-color: lightgreen;
+b.botMessage {
+  margin-left: 15px;
 }
 
-.avatar{
-    text-align: $align;
+.userMessage {
+  margin: 15px 10px 15px 5px;
+  padding-left: 10px;
+  width: 75%;
+  border: 1px thin black;
+  border-radius: 8px;
+  background-color: lightgreen;
 }
 
-.fa-close{
-    @include fontButton;
-    right: $size;
+.avatar {
+  text-align: $align;
 }
 
-
-.fa-arrow-left{
-    @include fontButton;
-    left: $size;
+.fa-close {
+  @include fontButton;
+    right: $defaultSize;
 }
-.fa-paper-plane{
-    transform: rotate(45deg);
-    font-size: 28px;
+
+.fa-arrow-left {
+  @include fontButton;
+    left: $defaultSize;
+}
+
+.fa-paper-plane {
+  transform: rotate(45deg);
+  font-size: 28px;
 }
 
 
